@@ -53,3 +53,4 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 ./salon.sh
 pg_dump -cC --inserts -U freecodecamp salon > salon.sql
 chmod +x salon.sh
+git pull origin main --allow-unrelated-histories
